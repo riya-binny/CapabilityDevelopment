@@ -1,9 +1,9 @@
-package Data_Structures;
+package Data_Structures.StringManipulationDuplicates;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class StringManipulation {
+public class Duplicates {
     public HashMap<Character, Integer> getHashMap(String input) {
         input = input.toLowerCase();
         HashMap<Character, Integer> duplicateHashMap= new HashMap<>();
@@ -18,6 +18,9 @@ public class StringManipulation {
     }
 
     public ArrayList<Character> duplicate(String input){
+        if(input == null || input.length()<=1)
+            return null;
+
         ArrayList<Character> duplicateCharacters = new ArrayList<>();
         HashMap<Character, Integer> duplicateHashMap = getHashMap(input);
         duplicateHashMap.forEach((key, value)-> {
@@ -28,6 +31,10 @@ public class StringManipulation {
     }
 
     public Character firstUnique(String input) {
+        if(input == null || input.length()<1)
+            return null;
+        if(input.length() == 1)
+            return input.charAt(0);
         HashMap<Character, Integer> duplicateHashMap = getHashMap(input);
         for(int i=0; i<input.length();i++) {
             Character key = input.charAt(i);
