@@ -28,3 +28,13 @@ Data Structures:
   
     Worst Case : O(n)
     Best Case : O(1)
+    
+  --Longest Palindrome:
+    
+    Worst case : O(n)
+    Best case : O(n)
+    
+  --Palindromic substring:
+  
+    Worst Case : O(n)
+    Best Case : O(n)
