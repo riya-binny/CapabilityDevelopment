@@ -11,7 +11,7 @@ public class Main {
         System.out.println(reverseNSubString.reverseStringIteration("riya"));
 
         // Checking whether one string is substring of another
-        System.out.println(reverseNSubString.isSubString("llo", "hello"));
+        System.out.println(reverseNSubString.isSubString("hllo", "hello"));
 
         // Reverse words in a sentence
         reverseNSubString.reverseWords("Hello my name is Riya");

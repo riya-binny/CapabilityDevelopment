@@ -43,6 +43,6 @@ public class ReverseNSubString {
             if (string.substring(i, i + size).equals(checkString))
                 return true;
         }
-        return isSubString(checkString, string) || false;
+        return false;
     }
 }
