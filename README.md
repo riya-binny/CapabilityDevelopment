@@ -38,3 +38,13 @@ Data Structures:
   
     Worst Case : O(n)
     Best Case : O(n)
+    
+  --Sort diagonals
+  
+    Worst Case : O(n*n)
+    Best Case : O(n*n)
+    
+  --Merge sorted arrays
+  
+    Worst case : O(n)
+    Best case : O(n)
