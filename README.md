@@ -39,12 +39,22 @@ Data Structures:
     Worst Case : O(n)
     Best Case : O(n)
     
-  --Sort diagonals
+  --Sort diagonals:
   
     Worst Case : O(n*n)
     Best Case : O(n*n)
     
-  --Merge sorted arrays
+  --Merge sorted arrays:
   
     Worst case : O(n)
     Best case : O(n)
+    
+  --Recent calls:
+  
+    Worst case : O(1)
+    Best Case : O(1)
+    
+  --Schedule task:
+  
+    Worst case : O(n)
+    Best case : O(1)
