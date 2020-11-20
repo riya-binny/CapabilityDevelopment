@@ -58,3 +58,43 @@ Data Structures:
   
     Worst case : O(n)
     Best case : O(1)
+    
+  --Remove Duplicate Stack:
+  
+      Worst case : O(n)
+      Best case : O(n)
+  
+  --Remove Parentheses:
+  
+      Worst case : O(n)
+      Best case : O(n)
+  
+  --Add 2 numbers:
+
+      Worst case : O(n)
+      Best case : O(n)
+        
+  --Decimal value:
+  
+      Worst case : O(n)
+      Best case : O(n)
+  
+  --Delete Node:
+  
+      Worst case : O(1)
+      Best case : O(1)
+  
+  --Next Larger Node:
+  
+      Worst case : O(n*n)
+      Best case : O(n*n)
+  
+  --Partition List:
+  
+      Worst case : O(n)
+      Best case : O(n)
+  
+  --ReverseList:
+  
+      Worst case : O(n)
+      Best case : O(n)
